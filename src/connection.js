@@ -13,7 +13,7 @@ const LOG_NS = '[connection.js]';
 import { getNumericID, checkUrl, newIterator } from './utils/utils.js';
 import { JANODE, JANUS, isResponseData, isErrorData } from './protocol.js';
 import WsTransport from './transport-ws.js';
-import UnixTransport from './transport-unix.js';
+//import UnixTransport from './transport-unix.js';
 import JanodeSession from './session.js';
 import TransactionManager from './tmanager.js';
 
